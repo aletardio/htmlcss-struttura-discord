@@ -134,3 +134,34 @@ header {
 .green {
     background-color: #228B23;
 }
+
+/* CONTAINER 6 */
+
+.bg-black {
+    background-color: #23272A;
+    height: 500px;
+}
+
+.size-black {
+    padding: 0 380px;
+    height: 450px;
+}
+
+.col-17 {
+    width: calc(75% / 4);
+    border: 1px dashed black;
+}
+
+.pink {
+    background-color: #F08080;
+}
+
+.acquamarine {
+    background-color: #21B2AA;
+}
+
+hr {
+    color: grey;
+}
+
+
