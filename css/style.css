@@ -57,23 +57,18 @@ header {
 /* CONTAINER 1 */
 .container {
     max-width: 1200px;
-    width: 100%;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
 }
 
 .bg-blue {
     background-color: #0F008B;
-    height: 500px;
+    padding: 10px 0;
 }
 
 /* RIGA */
 .size-blue{
-    padding: 0 500px;
     height: 400px;
+    padding: 0 auto;
 }
 
 /* COLONNA 1 */
@@ -87,12 +82,11 @@ header {
 
 .bg-white {
     background-color: #FFFFFF;
-    height: 600px;
+    padding: 20px 0;
 }
 
 /* RIGA */
 .size-white{
-    padding: 0 380px;
     height: 500px;
 }
 
@@ -111,25 +105,17 @@ header {
 
 .bg-grey {
     background-color: #D3D3D3;
-    height: 600px;
+    padding: 20px 0;
 }
 
 /* RIGA */
 .size-grey{
-    padding: 0 380px;
     height: 500px;
 }
 
 /* CONTAINER 5 */
 
-.bg-grey-green {
-    background-color: #D3D3D3;
-    height: 800px;
-
-}
-
 .size-green{
-    padding: 0 380px;
     height: 750px;
 }
 
@@ -145,7 +131,6 @@ header {
 }
 
 .size-black {
-    padding: 0 380px;
     height: 450px;
 }
 
@@ -168,23 +153,22 @@ hr {
 
 /* FOOTER */
 
+.bg-black {
+    background-color: #23272A;
+    padding: 10px 0;
+}
+
 .container-footer {
     max-width: 1200px;
-    width: 100%;
     margin: 0 auto;
-    display: flex;
-    justify-content: end;
-    align-content: end;
-    flex-wrap: wrap;
 }
 
 .bg-black-footer {
     background-color: #23272A;
-    height: 100px;
+    padding-top: 10px;
 }
 
 .footer-size-black {
-    padding: 0 380px;
     height: 70px;
 
 }
