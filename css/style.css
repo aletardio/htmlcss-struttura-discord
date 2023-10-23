@@ -13,14 +13,15 @@ header {
     align-content: center;
     flex-wrap: wrap;
 }
+
 /* CONTAINER HEADER */
 .container-header{
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     background-color: #DAA520;
-    /* height: 30px; */
 }
+
 /* RIGA HEADER */
 .row {
     width: 100%;
@@ -55,6 +56,7 @@ header {
 
 /* CONTAINER 1 */
 .container {
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -167,6 +169,7 @@ hr {
 /* FOOTER */
 
 .container-footer {
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     display: flex;
